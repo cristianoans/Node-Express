@@ -1,7 +1,6 @@
 const express = require('express');
 const pool = require('../db/db');
 
-const app = express();
 const usuarios = express.Router();
 
 usuarios.route('/')
