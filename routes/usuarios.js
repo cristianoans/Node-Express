@@ -6,7 +6,7 @@ const usuarios = express.Router();
 
 usuarios.route('/')
     .get((req, res) => {
-        const { nome, media, aprovado } = req.query;
+        const { matricula, nome, media, aprovado } = req.query;
         if (nome) {
             pool.query(`SELECT * FROM usuarios WHERE NomeCompleto LIKE '%${nome}%'`, function (err, result) {
                 if (err) {
@@ -25,6 +25,14 @@ usuarios.route('/')
             })
         } else if (aprovado) {
             pool.query(`SELECT * FROM usuarios WHERE Aprovado = ${aprovado}`, function (err, result) {
+                if (err) {
+                    res.status(500).json({ error: `${err.sqlMessage}` });
+                } else {
+                    res.status(200).json(result);
+                }
+            })
+        } else if (matricula) {
+            pool.query(`SELECT * FROM usuarios WHERE Matricula = ${matricula}`, function (err, result) {
                 if (err) {
                     res.status(500).json({ error: `${err.sqlMessage}` });
                 } else {
