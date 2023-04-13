@@ -1,0 +1,245 @@
+[2023-04-13T18:29:30.912Z] Executing (default): SELECT `id`, `matricula`, `nome`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `Users` AS `User`;
+[2023-04-13T18:31:07.235Z] Executing (default): SELECT `id`, `matricula`, `nome`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User`;
+[2023-04-13T18:32:04.617Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User`;
+[2023-04-13T18:32:56.663Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `created_at`, `updated_at` FROM `usuarios` AS `User`;
+[2023-04-13T18:46:46.273Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T18:46:46.279Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T18:47:06.247Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User`;
+[2023-04-13T18:52:56.121Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T18:52:56.129Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:09:11.318Z] Executing (default): SELECT 1+1 AS result
+[2023-04-13T19:10:07.076Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:10:07.081Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:11:05.679Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:11:05.683Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:11:09.183Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:11:09.187Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:11:18.077Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:11:18.081Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:11:20.430Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:11:20.434Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:11:33.211Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:11:33.216Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:11:38.720Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:11:38.724Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:11:43.876Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:11:43.882Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:12:15.838Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:12:15.842Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:12:21.144Z] Executing (default): SELECT 1+1 AS result
+[2023-04-13T19:15:48.299Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:15:48.303Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:16:13.900Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User`;
+[2023-04-13T19:18:34.155Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:18:34.169Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:19:32.387Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:19:32.391Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:19:33.880Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:19:33.885Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:19:35.720Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:19:35.724Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:19:50.669Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User`;
+[2023-04-13T19:20:00.663Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:20:00.668Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:43:30.630Z] Executing (default): INSERT INTO `usuarios` (`id`,`matricula`,`nomecompleto`,`nota1`,`nota2`,`media`,`aprovado`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+[2023-04-13T19:46:58.218Z] Executing (default): INSERT INTO `usuarios` (`id`,`matricula`,`nomecompleto`,`nota1`,`nota2`,`media`,`aprovado`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+[2023-04-13T19:50:54.751Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:50:54.756Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:53:12.948Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:53:12.952Z] Executing (default): CREATE TABLE IF NOT EXISTS `usuarios` (`id` INTEGER NOT NULL auto_increment , `matricula` VARCHAR(255) NOT NULL, `nomecompleto` VARCHAR(255) NOT NULL, `nota1` FLOAT NOT NULL, `nota2` FLOAT NOT NULL, `media` FLOAT NOT NULL, `aprovado` TINYINT(1) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+[2023-04-13T19:53:12.992Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:54:29.360Z] Executing (default): INSERT INTO `usuarios` (`id`,`matricula`,`nomecompleto`,`nota1`,`nota2`,`media`,`aprovado`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+[2023-04-13T19:57:59.395Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:57:59.401Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:58:04.102Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:58:04.106Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:58:17.352Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:58:17.358Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:58:29.187Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User`;
+[2023-04-13T19:58:35.663Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`nome` LIKE '%cristiano%';
+[2023-04-13T19:59:15.762Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:59:15.768Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T19:59:23.927Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T19:59:23.932Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T20:15:18.669Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T20:15:18.673Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T20:16:02.566Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T20:16:02.571Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T20:24:33.958Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T20:24:33.962Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T20:53:16.934Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T20:53:16.938Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:24:30.405Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:24:30.410Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:33:40.440Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:34:50.610Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:34:50.614Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:34:55.423Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:34:55.427Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:35:09.187Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:35:09.191Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:35:14.907Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:35:14.911Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:35:17.608Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:35:17.611Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:35:28.137Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:35:28.142Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:36:02.927Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:36:02.937Z] Executing (default): UPDATE `usuarios` SET `nota1`=?,`nota2`=?,`media`=?,`aprovado`=?,`updatedAt`=? WHERE `id` = ?
+[2023-04-13T21:42:14.158Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:42:14.162Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:42:24.026Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:42:24.030Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:42:37.981Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '15';
+[2023-04-13T21:42:58.210Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:42:58.218Z] Executing (default): UPDATE `usuarios` SET `nota1`=?,`nota2`=?,`media`=?,`updatedAt`=? WHERE `id` = ?
+[2023-04-13T21:44:09.425Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:44:24.858Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:44:24.862Z] Executing (default): UPDATE `usuarios` SET `nota1`=?,`nota2`=?,`updatedAt`=? WHERE `id` = ?
+[2023-04-13T21:44:57.570Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:44:57.574Z] Executing (default): UPDATE `usuarios` SET `nota1`=?,`nota2`=?,`updatedAt`=? WHERE `id` = ?
+[2023-04-13T21:46:56.745Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:46:56.748Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:47:10.215Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:47:10.220Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:47:11.734Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:47:11.737Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:47:29.639Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:47:29.644Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:47:32.084Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:47:32.088Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:47:50.588Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:49:02.412Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:49:21.130Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:49:21.134Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:49:27.029Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:49:27.033Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:49:28.635Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:49:38.436Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:49:38.440Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:49:39.848Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:49:39.852Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:49:46.941Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:49:46.945Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:49:51.797Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:49:51.801Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:49:55.143Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:50:28.589Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:50:28.593Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:50:30.667Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:50:30.671Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:50:34.304Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:50:34.307Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:50:38.504Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:50:48.648Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:50:48.651Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:50:59.178Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:50:59.181Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:51:04.317Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:51:28.884Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:51:28.887Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:51:31.879Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:51:31.882Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:52:02.221Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:52:02.225Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:52:19.557Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:52:19.561Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:52:23.402Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T21:52:43.465Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:52:43.468Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:52:44.407Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:52:44.411Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:52:46.596Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:52:46.600Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:52:50.601Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:52:50.606Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:53:06.291Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:53:06.295Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T21:53:07.449Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T21:53:07.452Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:03:13.571Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:03:13.575Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:03:17.258Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:03:17.263Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:05:47.732Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:05:47.735Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:05:49.030Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:05:49.033Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:09:35.272Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:09:35.276Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:09:36.767Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:09:36.771Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:09:46.549Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:09:46.552Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:09:49.691Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:09:49.695Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:34:41.193Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '11';
+[2023-04-13T22:34:41.202Z] Executing (default): UPDATE `usuarios` SET `nota1`=?,`nota2`=?,`updatedAt`=? WHERE `id` = ?
+[2023-04-13T22:35:16.197Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`nome` LIKE '%cristiano%';
+[2023-04-13T22:35:31.805Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User`;
+[2023-04-13T22:35:56.519Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:35:56.522Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:35:59.177Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:35:59.181Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:36:26.092Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:36:26.096Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:36:27.199Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:36:27.202Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:36:47.269Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T22:36:47.273Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T22:36:58.142Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`nomecompleto` LIKE '%cristiano%';
+[2023-04-13T22:37:29.505Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`matricula` = '09012023';
+[2023-04-13T22:37:41.322Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`media` >= '9';
+[2023-04-13T22:37:57.921Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`media` >= '8';
+[2023-04-13T22:59:17.068Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`nomecompleto` LIKE '%cristiano%';
+[2023-04-13T22:59:22.864Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`aprovado` = 'true';
+[2023-04-13T23:00:17.409Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:00:17.413Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:00:19.211Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:00:19.215Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:00:30.605Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:00:30.609Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:13:42.925Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:13:42.928Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:13:45.155Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:13:45.159Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:15:08.034Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:15:08.037Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:15:11.748Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:15:11.755Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:15:19.424Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:15:19.429Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:15:26.677Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:15:26.681Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:15:29.165Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:15:29.170Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:15:36.704Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:15:36.707Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:15:54.181Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`aprovado` = true;
+[2023-04-13T23:17:10.779Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`media` >= '8';
+[2023-04-13T23:17:26.243Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`media` >= '10';
+[2023-04-13T23:17:34.316Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`media` >= '100';
+[2023-04-13T23:18:09.186Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:18:09.190Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:18:11.141Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:18:11.145Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:18:13.109Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:18:13.114Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:18:14.305Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:18:14.308Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:18:18.052Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`media` >= '100';
+[2023-04-13T23:18:31.878Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:18:31.882Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:19:24.141Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:19:24.144Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:20:22.371Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:20:22.385Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:20:24.533Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:20:24.537Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:20:39.775Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:20:39.778Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:20:55.408Z] Executing (default): SELECT `id`, `matricula`, `nomecompleto`, `nota1`, `nota2`, `media`, `aprovado`, `createdAt`, `updatedAt` FROM `usuarios` AS `User` WHERE `User`.`id` = '19';
+[2023-04-13T23:21:19.028Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:21:19.032Z] Executing (default): SHOW INDEX FROM `usuarios`
+[2023-04-13T23:21:36.016Z] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'nodeexpressmysql'
+[2023-04-13T23:21:36.020Z] Executing (default): SHOW INDEX FROM `usuarios`
