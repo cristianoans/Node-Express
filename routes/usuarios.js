@@ -7,25 +7,39 @@ const usuarios = express.Router();
 usuarios.route('/')
     .get((req, res) => {
         const { nome, media, aprovado } = req.query;
-
         if (nome) {
-            pool.query(`SELECT * FROM usuarios WHERE NomeCompleto LIKE '%${nome}%'`, function (err, result, fields) {
-                res.json(result);
+            pool.query(`SELECT * FROM usuarios WHERE NomeCompleto LIKE '%${nome}%'`, function (err, result) {
+                if (err) {
+                    res.status(500).json({ error: `${err.sqlMessage}` });
+                } else{
+                    res.status(200).json(result);
+                }
             })
         } else if (media) {
-            pool.query(`SELECT * FROM usuarios WHERE Media >= ${media}`, function (err, result, fields) {
-                res.json(result);
+            pool.query(`SELECT * FROM usuarios WHERE Media >= ${media}`, function (err, result) {
+                if (err) {
+                    res.status(500).json({ error: `${err.sqlMessage}` });
+                } else{
+                    res.status(200).json(result);
+                }
             })
         } else if (aprovado) {
-            pool.query(`SELECT * FROM usuarios WHERE Aprovado = ${aprovado}`, function (err, result, fields) {
-                res.json(result);
+            pool.query(`SELECT * FROM usuarios WHERE Aprovado = ${aprovado}`, function (err, result) {
+                if (err) {
+                    res.status(500).json({ error: `${err.sqlMessage}` });
+                } else{
+                    res.status(200).json(result);
+                }
             })
         } else {
-            pool.query("SELECT * FROM `usuarios`", function (err, result, fields) {
-                res.json(result);
+            pool.query("SELECT * FROM `usuarios`", function (err, result) {
+                if (err) {
+                    res.status(500).json({ error: `${err.sqlMessage}` });
+                } else{
+                    res.status(200).json(result);
+                }
             })
         }
-
     })
     .post((req, res) => {
         const { matricula, nome, nota1, nota2 } = req.body;
@@ -71,13 +85,22 @@ usuarios.route('/')
     .delete((req, res) => {
         const { id } = req.body;
         if (id) {
-            pool.query(`DELETE FROM usuarios WHERE id = ${id}`, function (err) {
-                if (err) { // se existir erro na query, retorna o erro para front com a mensagem do mysql
-                    res.status(500).json({ error: `${err.sqlMessage}` });
-                } else { // se não tiver erro, retorna o status e a mensagem de sucesso.
-                    res.status(200).json({ message: `usuário deletado!` });
+            pool.query(`SELECT * FROM usuarios WHERE id = ${id}`, function (result) {
+                if (result.length === 0) {
+                    res.status(404).json({ error: `id inexistente no banco` });
+                    return;
+                } else{
+                    pool.query(`DELETE FROM usuarios WHERE id = ${id}`, function (err) {
+                        if (err) { // se existir erro na query, retorna o erro para front com a mensagem do mysql
+                            res.status(500).json({ error: `${err.sqlMessage}` });
+                        } else { // se não tiver erro, retorna o status e a mensagem de sucesso.
+                            res.status(200).json({ message: `usuário deletado!` });
+                        }
+                    })
                 }
             })
+
+            
         } else {
             res.status(400).json({ error: 'Campo obrigatório não informado.' });
         }
