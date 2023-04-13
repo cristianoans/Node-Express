@@ -2,7 +2,6 @@ const express = require('express');
 const pool = require('../db/db');
 
 const app = express();
-// app.use(express.json());
 const usuarios = express.Router();
 
 usuarios.route('/')
@@ -30,14 +29,12 @@ usuarios.route('/')
     })
     .post((req, res) => {
         const { matricula, nome, nota1, nota2 } = req.body;
-
-        if (matricula && nota1 && nota2 && nome) {
-            if (!isNaN(nota1) && !isNaN(nota2)) { // valida se as notas informadas são numéricas
-                const media = ((parseFloat(nota1) + parseFloat(nota2)) / 2);
-
+        if (matricula && nota1 && nota2 && nome) { // valida se os campos estão presentes na requisição
+            const media = calculaMedia(nota1, nota2); // a função média valida se as notas são numéricas e retorna a media calculada
+            if (media !== 0) { // se a média retornada for 0, significa que alguma nota informada é texto
                 pool.query(`INSERT INTO usuarios (Matricula, NomeCompleto, Nota1, Nota2, Media, Aprovado)
                 VALUES ('${matricula}','${nome}',${nota1},${nota2},${media},${aprovado()})`,
-                    function (err, result, fields) {
+                    function (err) {
                         if (err) { // se existir erro na query, retorna o erro para front com a mensagem do mysql
                             res.status(500).json({ error: `${err.sqlMessage}` });
                         } else { // se não tiver erro, retorna o status e a mensagem de sucesso.
@@ -53,11 +50,11 @@ usuarios.route('/')
     })
     .put((req, res) => {
         const { id, matricula, nome, nota1, nota2 } = req.body;
-        if (id && matricula && nome && nota1 && nota2) {
-            const media = calculaMedia(nota1, nota2);
-            if (media !== 0) {
+        if (id && matricula && nome && nota1 && nota2) { // valida se os campos estão presentes na requisição
+            const media = calculaMedia(nota1, nota2); // a função média valida se as notas são numéricas e retorna a media calculada
+            if (media !== 0) { // se a média retornada for 0, significa que alguma nota informada é texto
                 pool.query(`UPDATE usuarios SET Matricula = '${matricula}', NomeCompleto = '${nome}', Nota1 = ${nota1}, Nota2 = ${nota2}, Media = ${media}, Aprovado = ${aprovado(media)} WHERE id = ${id}`,
-                    function (err, result, fields) {
+                    function (err) {
                         if (err) { // se existir erro na query, retorna o erro para front com a mensagem do mysql
                             res.status(500).json({ error: `${err.sqlMessage}` });
                         } else { // se não tiver erro, retorna o status e a mensagem de sucesso.
@@ -67,6 +64,20 @@ usuarios.route('/')
             } else {
                 res.status(400).json({ error: 'Nota inválida, deve ser numérica.' });
             }
+        } else {
+            res.status(400).json({ error: 'Campo obrigatório não informado.' });
+        }
+    })
+    .delete((req, res) => {
+        const { id } = req.body;
+        if (id) {
+            pool.query(`DELETE FROM usuarios WHERE id = ${id}`, function (err) {
+                if (err) { // se existir erro na query, retorna o erro para front com a mensagem do mysql
+                    res.status(500).json({ error: `${err.sqlMessage}` });
+                } else { // se não tiver erro, retorna o status e a mensagem de sucesso.
+                    res.status(200).json({ message: `usuário deletado!` });
+                }
+            })
         } else {
             res.status(400).json({ error: 'Campo obrigatório não informado.' });
         }
@@ -82,7 +93,7 @@ function aprovado(media) {
 }
 
 // função para calcular a média
-function calculaMedia(nota1, nota2, res) {
+function calculaMedia(nota1, nota2) {
     if (!isNaN(nota1) && !isNaN(nota2)) {
         return ((parseFloat(nota1) + parseFloat(nota2)) / 2);
     } else {
