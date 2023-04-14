@@ -1,0 +1,6 @@
+::1 - - [14/Apr/2023:13:14:22 +0000] "GET /usuarios HTTP/1.1" 200 2119 "-" "PostmanRuntime/7.32.2"
+::1 - - [14/Apr/2023:13:15:52 +0000] "GET /usuarios HTTP/1.1" 200 2119 "-" "PostmanRuntime/7.32.2"
+::1 - - [14/Apr/2023:13:16:12 +0000] "GET /usuarios HTTP/1.1" 200 2119 "-" "PostmanRuntime/7.32.2"
+::1 - - [14/Apr/2023:13:19:05 +0000] "POST /usuarios HTTP/1.1" 201 42 "-" "PostmanRuntime/7.32.2"
+::1 - - [14/Apr/2023:13:30:32 +0000] "GET /usuarios HTTP/1.1" 200 2310 "-" "PostmanRuntime/7.32.2"
+::1 - - [14/Apr/2023:13:30:36 +0000] "GET /usuarios?nome=cristiano HTTP/1.1" 200 197 "-" "PostmanRuntime/7.32.2"
