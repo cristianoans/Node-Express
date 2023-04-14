@@ -6,6 +6,7 @@ const fs = require('fs');
 const sequelize = new Sequelize('nodeexpressmysql', 'root', 'cris$#2260', {
   host: 'localhost',
   dialect: 'mysql',
+  timezone: '-03:00',
   logging: (msg) => {
     const logMessage = `[${new Date().toISOString()}] ${msg}\n`;
     fs.appendFileSync(path.join(__dirname, '../logs', 'sequelize.log'), logMessage);

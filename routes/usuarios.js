@@ -72,7 +72,7 @@ usuarios.route('/')
                 return res.status(400).json({ error: 'Nota inválida, deve ser numérica.' });
             }
             const aprovado = estadoAprovacao(media);
-            
+
             // Atualiza o usuário com os novos valores
             await user.update({ matricula, nomecompleto: nome, nota1, nota2, media, aprovado });
 
@@ -82,24 +82,16 @@ usuarios.route('/')
         }
     })
     .delete(async (req, res) => {
-        const { id } = req.body;
-        if (id) {
-            try {
-                const result = await User.findOne({ where: { id } });
-                if (!result) {
-                    res.status(404).json({ error: `id inexistente no banco` });
-                    return;
-                }
-                await User.destroy({ where: { id } });
-                res.status(200).json({ message: `usuário deletado!` });
-            } catch (err) {
-                res.status(500).json({ error: `${err.message}` });
-            }
-        } else {
-            res.status(400).json({ error: 'Campo obrigatório não informado.' });
+        try {
+            const { id } = req.body;
+            await User.deleteUser(id);
+            res.status(200).json({ message: 'Usuário deletado!' });
+        } catch (error) {
+            console.error(error);
+            res.status(500).send({ message: 'erro!' });
         }
     })
-    
+
 // função para validar se o usuário informado está aprovado
 function estadoAprovacao(media) {
     if (media >= 8) {
