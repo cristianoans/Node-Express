@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const path = require('path');
 const fs = require('fs');
 const usuarios = require('./routes/usuarios');
+const swagger = require('./swagger');
 
 const app = express();
 
@@ -17,6 +18,9 @@ app.use(express.json());
 
 // cria a rota /usuarios e chama as rotas dentro do arquivo usuarios.js
 app.use('/usuarios', usuarios);
+
+// adiciona o middleware do swagger
+swagger(app);
 
 app.listen(3000, () => {
   console.log(`Servidor iniciado na porta 3000`);

@@ -27,7 +27,8 @@ class User extends Model {
 User.init({
     matricula: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
+        unique: true
     },
     nomecompleto: {
         type: DataTypes.STRING,
@@ -53,7 +54,37 @@ User.init({
     sequelize,
     modelName: 'User',
     tableName: 'usuarios',
-    timestamps: true
+    timestamps: true,
+    options: {
+        swagger: {
+            properties: {
+                matricula: {
+                    type: 'string',
+                    example: '123456'
+                },
+                nomecompleto: {
+                    type: 'string',
+                    example: 'João da Silva'
+                },
+                nota1: {
+                    type: 'number',
+                    example: 8.5
+                },
+                nota2: {
+                    type: 'number',
+                    example: 7.0
+                },
+                media: {
+                    type: 'number',
+                    example: 7.75
+                },
+                aprovado: {
+                    type: 'boolean',
+                    example: true
+                }
+            }
+        }
+    }
 });
 
 // este metodo vai armazenar uma copia do usuário dentro de usuarios_historico quando ele for criado na tabela usuarios
